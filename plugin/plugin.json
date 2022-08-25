@@ -1,0 +1,22 @@
+{
+  "name":"剪切板",
+  "pluginName":"快捷剪切板",
+  "description":"简单易用的剪切板插件～",
+  "author":"sfyyy",
+  "homepage":"/",
+  "version":"1.0.0",
+  "main": "index.html",
+  "logo": "logo.png",
+  "platform": ["win32", "darwin", "linux"],
+  "preload": "preload.js",
+  "development": {
+    "main": "http://127.0.0.1:3000"
+  },
+  "features": [
+    {
+      "code": "main",
+      "explain": "剪切板插件",
+      "cmds":["剪切板"]
+    }
+  ]
+}
