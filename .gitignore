@@ -8,12 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+upx
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
-
+upx/*.upx
 /cypress/videos/
 /cypress/screenshots/
 

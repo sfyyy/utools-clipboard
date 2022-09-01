@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import { getUser } from "uTools";
-console.log(getUser());
+import { db } from "uTools";
+new window.preload.ClipboardConstructor({
+  textCallback: async (text: string) => {
+    console.log(text);
+    return text;
+  },
+});
 </script>
 
 <template>
@@ -16,6 +21,7 @@ console.log(getUser());
   width: 100%;
   height: 100%;
   display: flex;
+
   .tab {
     font-size: 24px;
     color: #d00;
