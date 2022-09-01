@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import { db } from "uTools";
-new window.preload.ClipboardConstructor({
+new window.preload.ClipboardEventListener({
   textCallback: async (text: string) => {
-    console.log(text);
     return text;
   },
 });

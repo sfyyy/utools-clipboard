@@ -45,11 +45,11 @@ export class Clipboard {
   }
 }
 
-// class Storage {
-//   private path = "";
-//   constructor(path: string) {
-//     this.path = path;
-//   }
-// }
+export class Storage {
+  private path = "";
+  constructor(path: string) {
+    this.path = path;
+  }
+}
 
-export const ClipboardConstructor = Clipboard;
+export const ClipboardEventListener = Clipboard;
