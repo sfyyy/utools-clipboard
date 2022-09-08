@@ -1,9 +1,10 @@
-import { ClipboardConstructor } from "@/preload";
+import { ClipboardConstructor, Storage } from "@/preload";
 
 declare global {
   interface Window {
     preload: {
-      ClipboardConstructor: ClipboardConstructor;
+      Clipboard: ClipboardConstructor;
+      storage: Storage;
     };
   }
 }
